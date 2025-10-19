@@ -14,6 +14,13 @@ print("x + y = " + (x + y));
 print(x);
 print(y);
 
+//conditional statement
+if (x > y) {
+    print("x is greater than y");
+} else {
+    print("x is not greater than y");
+}
+
 //dynamic typing
 x = "string now";
 print(x);
@@ -36,19 +43,23 @@ class Person {
     this.age = age;
   }
 
-  //fu
+  //function inside class
   function greet() {
     print("Hello, my name is " + this.name + " and I am " + this.age + " years old." + " I live at " + this.address + ".");
   }
 
+  //function with parameter
   function setAddress(addr) {
     this.address = addr;
   }
 
+  //function with parameters and return value
   function add(a, b) {
         return a + b;
     }
 }
+
+
 //Creating a Person object...
 var p = new Person("Alice", 30);
 
@@ -116,8 +127,6 @@ function fn3(){
 }
 
 fn3();
-
-
 
 //syntax for a working for loop ! do not add var on the iterator
 //for loop demonstration
