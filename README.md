@@ -3,6 +3,13 @@ Author: Jofel A. Batutay
 
 The Bonezegei Scripting Language (BSL) is a newly developed, dynamically typed programming language implemented through a custom interpreter written in the C language. It is designed primarily for rapid prototyping and the integration of embeddable logic within software systems. BSL features a simplified and intuitive syntax influenced by JavaScript and the C family of languages, promoting ease of adoption and efficient development. Despite its lightweight design, BSL is a fully Turing-complete language that supports essential modern programming constructs, including conditional and iterative control flows, user-defined functions, and object-oriented programming through class declarations, constructors, and methods. Source code is encapsulated within files using the unique .bzg extension, emphasizing the language’s self-contained architecture.
 
+# Download
+
+### Latest Version 1.1
+* [Windows x64](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Version1.1/windows_x86/BonezegeiInstaller-1.1.msi)
+* [Linux x86](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Version1.1/linux_x86/bonezegei)
+
+
 # Version 1.0
 ## Running the sample
 
