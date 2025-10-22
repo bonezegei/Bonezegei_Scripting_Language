@@ -6,7 +6,7 @@ The Bonezegei Scripting Language (BSL) is a newly developed, dynamically typed p
 # Download
 
 ### Latest Version 1.1
-* [Windows x64](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Version1.1/windows_x86/BonezegeiInstaller-1.1.msi)
+* [Windows x64](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Version1.1/windows_x86/BonezegeiInstallerVersion1_1.msi)
 * [Linux x86](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Version1.1/linux_x86/bonezegei)
 
 
