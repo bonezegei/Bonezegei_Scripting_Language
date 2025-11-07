@@ -9,7 +9,51 @@ The Bonezegei Scripting Language (BSL) is a newly developed, dynamically typed p
 * [Windows x64 .msi](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Latest/Bonezegei-x86.msi)
 * [Linux x86 .deb](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Latest/Bonezegei-x86.deb)
 * [Raspberry Pi Raspbian (NOT AVAILABLE)]()
+### Windows Installation
+  * Since the installer is self signed the installer is flagged as Unknown Publisher. Just Click "More Info" then click Run anyway. 
 
+    ![Win Installation ](https://raw.githubusercontent.com/bonezegei/Bonezegei_Scripting_Language/refs/heads/main/documentation/images/ins_win.png "win pop up")  
+
+   * The process to the Installation where you are asked to choose directory, just click next and Accept the MIT license. Then click Finish. 
+
+### Linux Installation
+  * Download the .deb installer and run the command
+    ``` bash
+      sudo apt install ./Bonezegei-x86.deb
+    ```
+
+### Verify Installation
+  * Go to cmd or open terminal then type the commands. It should show the current version of the Interpreter
+    * View current Version
+      ```
+      bonezegei --version
+      ```
+    * Test inline scripting
+      ```
+      bonezegei -inline "print(\"Hello World\");"
+      ```      
+    * Run Script
+      ```
+      bonezegei script_name.bzg
+      ```     
+### VSCode Usage
+  * Create New File with file extension .bzg (sxample script.bzg)
+  * Then Click "Run Script"
+
+
+### Package / Library Installation
+  * Packages or external Libraries are available via Bonezegei Package Installer. It is directly along with the interpreter. type the command 
+  
+    * View list of available packages
+      ``` bash
+      bzg -list
+      ``` 
+    * Install package/library
+      ``` bash
+      bzg install <package_name>
+      ``` 
+
+# Older Versions
 ### Version 1.2
 * [Windows x64](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Version1.2/windows_x86/Bonezegei-1.2.0.0.msi)
 * [Linux x86](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Version1.2/linux_x86/bonezegei)
