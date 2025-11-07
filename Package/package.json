@@ -1,4 +1,6 @@
 {
  { "name":"testLib", "arch":"all", "os": "all", "url":"bonezegei/BSL_TestLib/bin"},
  { "name":"socket",  "arch":"all", "os": "all", "url":""}
+
+ { "name":"gpio",  "arch":"arm-rpi", "os": "all", "url":"NA"}
 }
