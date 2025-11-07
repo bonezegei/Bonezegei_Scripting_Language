@@ -16,7 +16,7 @@ bzg install <package_name>
 .
 ├── script.bzg                   # main script
 └── lib /                        # library folder
+    ├── package_name.bzg         # loader script
     └── package_name /           # dedicated library
-        ├──package_name.bzg      # loader script
         └──package_name.dll/.so  # dll for windows so for linux 
 ```
