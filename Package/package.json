@@ -1,3 +1,5 @@
 {
- { "name":"socket", "arch":"all"
+ { "name":"testLib", "arch":"all", "os": "all", "url":""},
+ { "name":"socket",  "arch":"all", "os": "all", "url":""}
+ 
 }
