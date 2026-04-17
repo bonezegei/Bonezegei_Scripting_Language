@@ -55,8 +55,14 @@ The Bonezegei Scripting Language (BSL) is a newly developed, dynamically typed p
       bonezegei script_name.bzg
       ```     
 ### VSCode Usage
-  * Create New File with file extension .bzg (sxample script.bzg)
-  * Then Click "Run Script"
+  1. Download and install Visual Studio Code.
+  2. Open VS Code and navigate to the Extensions tab (or press Ctrl+Shift+X).
+  3. Search for the "Bonezegei Scripting Language Formatter" extension.
+  4. Click Install.
+     
+ * Once Installed
+  1. Create New File with file extension .bzg (sxample script.bzg)
+  2. Then Click "Run Script"
 
 
 ### Package / Library Installation
@@ -70,5 +76,10 @@ The Bonezegei Scripting Language (BSL) is a newly developed, dynamically typed p
       ``` bash
       bzg install <package_name>
       ``` 
-
+### Available Libraries
+| No  | Name                          | Description                        | Supported OS / Arch | Latest Version                                                                                                                                            |
+|-----|-------------------------------|------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  1  | BSL_Pipe      | Pipe Library    |Win/linux x86        | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Pipe)](https://github.com/bonezegei/BSL_Pipe)                                                 |
+|  2  | BSL_Thread    | Thread Library  |Win/linux x86        | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Thread)](https://github.com/bonezegei/BSL_Thread)                                             |
+|  3  | BSL_Socket    | Network Socket  |Win/linux x86        | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Socket)](https://github.com/bonezegei/BSL_Socket)    
 
