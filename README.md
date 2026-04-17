@@ -1,30 +1,43 @@
 # Bonezegei_Scripting_Language
-Author: Jofel A. Batutay
+Developed by: Jofel A. Batutay
 
 The Bonezegei Scripting Language (BSL) is a newly developed, dynamically typed programming language implemented through a custom interpreter written in the C language. It is designed primarily for rapid prototyping and the integration of embeddable logic within software systems. BSL features a simplified and intuitive syntax influenced by JavaScript and the C family of languages, promoting ease of adoption and efficient development. Despite its lightweight design, BSL is a fully Turing-complete language that supports essential modern programming constructs, including conditional and iterative control flows, user-defined functions, and object-oriented programming through class declarations, constructors, and methods. Source code is encapsulated within files using the unique .bzg extension, emphasizing the language’s self-contained architecture.
 
-### Microsoft Store
-  
-  [![Get it from Microsoft](https://get.microsoft.com/images/en-us%20dark.svg)](https://apps.microsoft.com/store/detail/XP9LZSQ13RSLNN)
-# Download
 
-### Latest
-* [Windows x64 .msi](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Latest/Bonezegei-x86.msi)
-* [Linux x86 .deb](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Latest/Bonezegei-x86.deb)
-* [Raspberry Pi Raspbian (NOT AVAILABLE)]()
+### Language Tutorials
+1. [What is BSL](https://bonezegei.com/tutorials/bsl/whatisbsl)
+2. [BSL Installation](https://bonezegei.com/tutorials/bsl/install)
+3. [BSL Quick Start](https://bonezegei.com/tutorials/bsl/start)
+4. [BSL Basics](https://bonezegei.com/tutorials/bsl/basics)
+5. [BSL Control Flow](https://bonezegei.com/tutorials/bsl/control)
+6. [BSL Data & Functions](https://bonezegei.com/tutorials/bsl/data_functions)
+7. [BSL Object-Oriented Programming](https://bonezegei.com/tutorials/bsl/oop)
+8. [BSL Standard Library](https://bonezegei.com/tutorials/bsl/stdlib)
 
+### Requirements
+  * Install the Latest Bonezegei Scripting Language
 
 ### Windows Installation
-  * Since the installer is self signed the installer is flagged as Unknown Publisher. Just Click "More Info" then click Run anyway. 
+1. Open the Microsoft Store app from your Windows Start Menu.
+2. Search for "Bonezegei Scripting Language".
+3. Click the Get or Install button.
+4. Wait for the download and installation to complete
+  
+  OR 
+  
+  Click the link below
 
-    ![Win Installation ](https://raw.githubusercontent.com/bonezegei/Bonezegei_Scripting_Language/refs/heads/main/documentation/images/ins_win.png "win pop up")  
-
-   * The process to the Installation where you are asked to choose directory, just click next and Accept the MIT license. Then click Finish. 
+  [![Get it from Microsoft](https://raw.githubusercontent.com/bonezegei/Bonezegei_Scripting_Language/refs/heads/main/documentation/images/ms-download.png)](https://apps.microsoft.com/store/detail/XP9LZSQ13RSLNN)
 
 ### Linux Installation
-  * Download the .deb installer and run the command
+* [Linux x86 .deb](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Latest/Bonezegei-x86.deb)
+  * Download the .deb installer
     ``` bash
-      sudo apt install ./Bonezegei-x86.deb
+    wget https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Latest/Bonezegei-x86.deb
+    ```
+  * Run the command
+    ``` bash
+    sudo apt install ./Bonezegei-x86.deb
     ```
 
 ### Verify Installation
@@ -58,202 +71,4 @@ The Bonezegei Scripting Language (BSL) is a newly developed, dynamically typed p
       bzg install <package_name>
       ``` 
 
-# Older Versions
-### Version 1.2
-* [Windows x64](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Version1.2/windows_x86/Bonezegei-1.2.0.0.msi)
-* [Linux x86](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Version1.2/linux_x86/bonezegei)
-
-
-### Version 1.1
-* [Windows x64](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Version1.1/windows_x86/BonezegeiInstaller-1.1.msi)
-* [Linux x86](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Version1.1/linux_x86/bonezegei)
-
-
-
-
-## License Agreement
-
-**By installing, copying, or using this software, you agree to the terms of the MIT License as detailed below.** If you do not agree to these terms, do not install or use the software.
-
----
-
-## MIT License
-
-Copyright (c) 2025 Bonezegei
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
-
-# Version 1.0
-## Running the sample
-
-A sample program is included under `Release/Version1.0/sample.bzg`. To run the sample with the interpreter, from the repository root (or the directory containing the interpreter binary) execute:
-
-```
-./bonezegei sample.bzg
-```
-
-This will invoke the Bonezegei interpreter and execute the `sample.bzg` program.
-
-## About the sample
-
-The included `sample.bzg` demonstrates several core features of the Bonezegei interpreter and the BSL language, including:
-
-- Basic syntax and data types (numbers, strings, booleans)
-- Variables and simple expressions
-- Conditional statements (if/else)
-- Loops (for/while)
-- Function definitions and calls
-- Basic object-oriented features such as class declarations, constructors, and method invocation
-
-The interpreter is capable of:
-
-- Parsing and executing `.bzg` source files
-- Evaluating expressions and managing scope for variables and functions
-- Controlling program flow with conditionals and loops
-- Creating and invoking user-defined functions and class methods
-- Handling runtime errors with informative messages
-
-Use the sample as a starting point for learning the language and testing the interpreter. Modify `sample.bzg` and re-run the command to experiment with new constructs.
-## Sample Code (sample.bzg)
-```js
-// line comment
-
-/* 
-  This is a block comment
-*/
-
-// simple print statement
-print("Starting JS-like demo!");
-
-//variable declarations and arithmetic
-var x = 5;
-var y = 2;
-print("x + y = " + (x + y));
-print(x);
-print(y);
-
-//conditional statement
-if (x > y) {
-    print("x is greater than y");
-} else {
-    print("x is not greater than y");
-}
-
-//dynamic typing
-x = "string now";
-print(x);
-
-//complex expression
-var complexNum = (3.5 *12.0 - 4.2 / 2.1)/4;
-print("complexNum = " + complexNum);
-
-
-// class definition
-class Person {
-  //variables inside class
-  var name;
-  var age;
-  var address;
-
-  //constructor
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
-
-  //function inside class
-  function greet() {
-    print("Hello, my name is " + this.name + " and I am " + this.age + " years old." + " I live at " + this.address + ".");
-  }
-
-  //function with parameter
-  function setAddress(addr) {
-    this.address = addr;
-  }
-
-  //function with parameters and return value
-  function add(a, b) {
-        return a + b;
-    }
-}
-
-
-//Creating a Person object...
-var p = new Person("Alice", 30);
-
-//accessing and modifying object properties
-p.age = 30;
-
-//printing object properties
-print("name: " + p.name);
-print("address: " + p.address);
-
-//setting address using method
-p.setAddress("123 Main St");
-
-//printing updated address
-print("Updated Person address: " + p.address);
-
-//calling greet method
-p.greet();
-
-//calling add method with parameters and return value
-print("2 + 3 = " + p.add(2, 3));
-
-
-//while loop demonstration
-var x = 3;
-while (x > 0) {
-    print("x is now: " + x);
-    x = x - 1;
-}
-
-//array demonstration
-var arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]; 
-
-arr[0]=10;
-arr[1]=20;
-arr[2]=30;
-arr[3]=40;
-arr[4]=50;
-
-//printing sizes
-print("size of arr = " + sizeof(arr));
-print("size of Person = " + sizeof(p));
-
-//iterating through array
-var i = 0;
-while (i < 5) {
-    print("arr[" + i + "] = " + arr[i]);
-    i = i + 1;
-}
-
-//Functions and Calls
-function fn1(){
-    print("In function fn1");
-}
-
-function fn2(){
-    print("In function fn2");
-    fn1();
-}
-
-//nested function calls
-function fn3(){
-    print("In function fn3");
-    fn2();
-}
-
-fn3();
-
-//syntax for a working for loop ! do not add var on the iterator
-//for loop demonstration
-for (x = 0; x < 5; x++) {
-    print("x = " + x);
-}
-```
 
