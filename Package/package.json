@@ -4,6 +4,7 @@
  { "name":"thread",    "arch":"all", "os": "all", "url":"bonezegei/BSL_Thread"},
  { "name":"socket",    "arch":"all", "os": "all", "url":"bonezegei/BSL_Socket"},
  { "name":"http",      "arch":"all", "os": "all", "url":"bonezegei/BSL_HTTP"},
+ { "name":"https",     "arch":"all", "os": "all", "url":"bonezegei/BSL_HTTPS"},
  { "name":"serial",    "arch":"all", "os": "all", "url":"bonezegei/BSL_Serial"},
  { "name":"gpio",  "arch":"arm-rpi", "os": "all", "url":"NA"}
 }
