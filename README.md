@@ -39,6 +39,17 @@ The Bonezegei Scripting Language (BSL) is a newly developed, dynamically typed p
     ``` bash
     sudo apt install ./Bonezegei-x86.deb
     ```
+### Raspbian Raspberry Pi
+* [Linux arm64 .deb](https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Latest/Bonezegei-arm64.deb)
+  * Download the .deb installer
+    ``` bash
+    wget https://github.com/bonezegei/Bonezegei_Scripting_Language/raw/refs/heads/main/Release/Latest/Bonezegei-arm64.deb
+    ```
+  * Run the command
+    ``` bash
+    sudo apt install ./Bonezegei-arm64.deb
+    ```
+
 
 ### Verify Installation
   * Go to cmd or open terminal then type the commands. It should show the current version of the Interpreter
