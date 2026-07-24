@@ -1,21 +1,448 @@
-MIT License
-
-Copyright (c) 2025 Bonezegei
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+BONEZEGEI SCRIPTING LANGUAGE AND RUNTIME
+END-USER LICENSE AGREEMENT
+EULA Version 1.0
+Last updated: July 25, 2026
+This End-User License Agreement ("Agreement") is a legal agreement between you, whether acting as an individual or on behalf of an organization ("You" or "User"), and Jofel Batutay, an independent software developer located in the Philippines ("Developer").
+This Agreement governs your download, installation, copying, deployment, redistribution, and use of the Bonezegei Scripting Language interpreter, runtime, and related materials.
+By downloading, installing, copying, deploying, redistributing, or using the Software, or by selecting an "I Accept" or similar option, You acknowledge that You have read, understood, and agreed to be bound by this Agreement.
+If You do not agree to this Agreement, do not download, install, copy, deploy, redistribute, or use the Software.
+1. Definitions
+1.1 Software
+“Software” means the proprietary Bonezegei Scripting Language interpreter and runtime distributed by the Developer, including, where applicable:
+a.	executable and binary files;
+b.	the official installer;
+c.	portable distributions;
+d.	command-line tools;
+e.	runtime components;
+f.	standard libraries supplied by the Developer;
+g.	documentation and examples;
+h.	updates, patches, and upgrades; and
+i.	other files expressly identified as part of Bonezegei.
+The Software does not include User-created Scripts or Applications.
+Third-party components included with the Software may be governed by separate license terms.
+1.2 Script
+“Script” means source code, instructions, configuration, or other content written in or for the Bonezegei Scripting Language.
+1.3 Application
+“Application” means any software program, system, service, product, package, or other work created by a User that:
+a.	contains or executes one or more Scripts;
+b.	uses or invokes the Software;
+c.	includes the Software or part of an authorized Software distribution; or
+d.	otherwise depends upon the Bonezegei runtime.
+1.4 Portable Copy
+“Portable Copy” means a copy of the Software that can be used or deployed without running the official Bonezegei installer.
+A Portable Copy may include a ZIP archive, portable directory, deployment package, container image, virtual-machine image, or similar package.
+1.5 Official Channels
+“Official Channels” means the following Developer-controlled contact and distribution channels:
+Website:	https://bonezegei.com
+Repository:	https://github.com/bonezegei
+Email:	jofelbatutay@gmail.com
+2. Proprietary and Closed-Source Status
+The Software is proprietary, closed-source software provided free of charge.
+The Software is not open-source software.
+No source code for the Bonezegei interpreter or runtime is provided, disclosed, licensed, or implied under this Agreement unless the Developer separately releases a specific component under different written license terms.
+The fact that the Software is available at no charge does not place it in the public domain and does not waive the Developer’s copyright or other intellectual-property rights.
+The Software is licensed, not sold.
+3. License Grant
+Subject to Your continued compliance with this Agreement, the Developer grants You a worldwide, non-exclusive, royalty-free, non-transferable, and non-sublicensable license to:
+a.	download and install the Software;
+b.	copy and use the Software;
+c.	use the Software for personal or commercial purposes;
+d.	create, execute, test, debug, and distribute Scripts and Applications;
+e.	deploy the Software on computers, servers, virtual machines, containers, cloud platforms, and other compatible systems;
+f.	redistribute the Software as expressly permitted by this Agreement; and
+g.	bundle the Software with free or commercial Applications as expressly permitted by this Agreement.
+The license is terminable only as provided in this Agreement.
+No license fee, royalty, revenue share, or other payment is owed to the Developer for the rights expressly granted under this Agreement.
+4. Permitted Purposes
+You may use the Software for any lawful purpose, including:
+a.	personal projects;
+b.	educational use;
+c.	academic use;
+d.	research and experimentation;
+e.	nonprofit activities;
+f.	governmental activities;
+g.	internal organizational use;
+h.	commercial software development;
+i.	professional consulting and integration;
+j.	automated processing;
+k.	hosted services;
+l.	software-as-a-service products;
+m.	cloud-based applications;
+n.	server-side processing; and
+o.	embedded or dedicated computing systems where technically compatible.
+You may charge customers or users for Scripts, Applications, products, or services created using the Software.
+You do not owe the Developer any royalty merely because a Script, Application, product, or service uses or includes the Software.
+5. Installation and Organizational Deployment
+You may install and use the Software on an unlimited number of compatible systems.
+Permitted installations include:
+a.	personal desktop and laptop computers;
+b.	organization-owned or organization-managed workstations;
+c.	school and laboratory computers;
+d.	physical servers;
+e.	virtual private servers;
+f.	virtual machines;
+g.	containers;
+h.	container orchestration platforms;
+i.	cloud-computing instances;
+j.	continuous-integration systems;
+k.	continuous-deployment systems;
+l.	development and testing environments;
+m.	production environments;
+n.	remote-development environments; and
+o.	hosted application platforms.
+An organization may internally deploy the Software to an unlimited number of its employees, students, contractors, agents, devices, servers, and authorized users.
+No separate site license, enterprise license, volume license, or deployment fee is required.
+The organization remains responsible for ensuring that its users comply with this Agreement.
+6. Server and Cloud Use
+You may install, execute, and deploy the Software on physical servers, virtual servers, containers, hosted systems, and public or private cloud platforms.
+You may use the Software to operate:
+a.	websites;
+b.	web applications;
+c.	application programming interfaces;
+d.	automated services;
+e.	software-as-a-service products;
+f.	internal business systems;
+g.	commercial hosting services;
+h.	development platforms;
+i.	build and testing systems; and
+j.	other lawful hosted services.
+You may charge users for access to a service or Application that uses the Software.
+You may not represent the Developer as the operator, sponsor, service provider, or technical-support provider for Your hosted service without the Developer’s prior written permission.
+7. Redistribution of the Official Installer
+You may copy, upload, mirror, host, and redistribute an unmodified copy of the official Bonezegei installer free of charge.
+Permitted redistribution methods include:
+a.	personal or organizational websites;
+b.	third-party websites;
+c.	public download mirrors;
+d.	private download systems;
+e.	file-hosting services;
+f.	software repositories;
+g.	package-distribution systems;
+h.	local-area networks;
+i.	educational networks;
+j.	organization-managed deployment systems;
+k.	physical storage media; and
+l.	other lawful distribution methods.
+You do not need prior written permission from the Developer to redistribute an unmodified official installer in accordance with this Agreement.
+Redistribution is permitted only when:
+a.	the Software’s executable and binary files remain unmodified;
+b.	the installer is not infected with or bundled with malware, spyware, adware, unwanted software, or harmful code;
+c.	copyright, attribution, trademark, and proprietary notices are not removed or obscured;
+d.	the Software is not represented as having been created or owned by the distributor;
+e.	the distributor does not falsely claim to be the Developer or an official representative of the Developer;
+f.	the distributor does not falsely represent the copy as a newer, modified, certified, or officially supported version; and
+g.	this Agreement, or a reasonably prominent reference or link to it, accompanies the redistributed copy.
+A redistributed standalone copy of the Software must not be marketed as the distributor’s independently developed proprietary product.
+8. Portable Copies and Repackaging
+You may create and distribute a Portable Copy of the Software.
+You may repackage unmodified Software files into:
+a.	ZIP or other archive files;
+b.	portable directories;
+c.	automated deployment packages;
+d.	organization-specific installers;
+e.	package-manager formats;
+f.	container images;
+g.	virtual-machine images;
+h.	system images;
+i.	offline installation media; and
+j.	similar technical distribution formats.
+You may include configuration files, installation scripts, launch scripts, manifests, metadata, and deployment instructions necessary to create or use a Portable Copy.
+Repackaging is permitted only when:
+a.	the Software’s executable and binary code is not modified;
+b.	the package does not bypass or disable a security or integrity feature;
+c.	the package does not contain malware, spyware, adware, unauthorized tracking, or unrelated unwanted software;
+d.	the Developer’s copyright and proprietary notices are preserved;
+e.	the package includes this Agreement or a reasonably prominent reference or link to it;
+f.	the distributor clearly distinguishes an unofficial package from an official Developer release;
+g.	the distributor does not falsely claim that the Developer created, tested, certified, or supports the package; and
+h.	the Bonezegei version included in the package is accurately identified where reasonably practical.
+Compression, decompression, copying, file reorganization, configuration, and installation automation do not by themselves constitute prohibited modification, provided the Software’s executable and binary code remains unmodified.
+9. Bundling With Free or Commercial Applications
+You may bundle and redistribute the Software with a free or commercial Script or Application.
+You may sell, license, rent, subscribe to, or otherwise charge for:
+a.	Your Script;
+b.	Your Application;
+c.	a product containing Your Application;
+d.	access to a hosted service using the Software;
+e.	installation or deployment services;
+f.	consulting or integration services;
+g.	support and maintenance for Your own Application;
+h.	training services;
+i.	physical media; and
+j.	other genuine products or services associated with Your Application.
+You may include the Software in the price of a larger Application, product, or service.
+However, You may not:
+a.	claim that You created or own the Bonezegei interpreter or runtime;
+b.	claim that You are independently licensing the Bonezegei interpreter or runtime on Your own behalf;
+c.	charge a separately identified proprietary license fee for the Software itself;
+d.	remove or alter the Developer’s copyright or proprietary notices;
+e.	impose terms that purport to replace or cancel this Agreement as it applies to the Software;
+f.	represent that the Developer sponsors, certifies, approves, endorses, or officially supports Your Application without prior written permission; or
+g.	make warranties or promises on behalf of the Developer.
+Your own license agreement may govern Your Script or Application, provided that it does not contradict or restrict the rights granted under this Agreement with respect to the Bonezegei Software itself.
+Each recipient of the Software receives a license directly from the Developer under this Agreement.
+You are not granting a sublicense to the Software.
+10. Ownership of Scripts and Applications
+As between You and the Developer, You retain all intellectual-property rights that You may have in Scripts, Applications, documentation, data, and other original content that You create.
+The Developer does not acquire ownership of a Script or Application merely because it was:
+a.	written in Bonezegei;
+b.	interpreted by Bonezegei;
+c.	executed using the Software;
+d.	tested or debugged using the Software;
+e.	packaged with the Software; or
+f.	distributed together with the Software.
+You may license Your Scripts and Applications under terms of Your choice, including:
+a.	proprietary or closed-source terms;
+b.	commercial terms;
+c.	freeware terms;
+d.	open-source terms;
+e.	source-available terms; or
+f.	public-domain or permissive terms where legally available.
+This Agreement does not require You to:
+a.	publish the source code of Your Scripts or Applications;
+b.	provide Your Scripts or Applications free of charge;
+c.	license Your Scripts or Applications to the Developer;
+d.	pay royalties to the Developer;
+e.	provide the Developer with access to Your systems or data; or
+f.	use any particular license for Your Scripts or Applications.
+You are responsible for ensuring that Your Scripts, Applications, data, and other content do not infringe third-party rights or violate applicable law.
+11. Intellectual-Property Ownership
+The Developer retains all rights, title, and interest in and to:
+a.	the Bonezegei interpreter;
+b.	the Bonezegei runtime;
+c.	the Software’s source code and object code;
+d.	the Software’s original documentation and examples;
+e.	official installers and distributions;
+f.	updates, patches, revisions, and upgrades;
+g.	original graphics, icons, and other materials supplied with the Software;
+h.	the Bonezegei name and branding; and
+i.	all associated copyrights and other intellectual-property rights.
+Except for the rights expressly granted under this Agreement, no ownership interest or other right is transferred to You.
+Nothing in this Agreement claims exclusive ownership of ideas, principles, algorithms, methods of operation, programming concepts, or other subject matter that applicable law does not protect as proprietary expression.
+12. Closed-Source Restrictions
+Except as expressly permitted by this Agreement or by applicable law, You may not:
+a.	modify, patch, alter, translate, or create derivative versions of the Software’s executable or binary code;
+b.	reverse engineer, decompile, disassemble, decode, or attempt to derive the Software’s source code;
+c.	bypass, remove, disable, defeat, or interfere with any security, integrity, license, or technical-protection feature;
+d.	remove, alter, conceal, or obscure copyright, attribution, trademark, or proprietary notices;
+e.	distribute modified Software binaries under the Bonezegei name;
+f.	falsely represent modified Software as an official Bonezegei release;
+g.	falsely claim ownership of the Software;
+h.	use the Developer’s identity or branding to impersonate the Developer;
+i.	distribute the Software with malware, spyware, adware, harmful code, or unrelated unwanted software; or
+j.	use or distribute the Software in violation of applicable law.
+These restrictions apply only to the maximum extent permitted by applicable law.
+Nothing in this Agreement prohibits reverse engineering, decompilation, disassembly, observation, testing, security research, interoperability work, backup copying, or another activity to the extent that applicable law expressly permits that activity notwithstanding a contractual restriction.
+13. Bonezegei Name and Branding
+You may truthfully state that Your Script, Application, product, or service is:
+a.	written in Bonezegei;
+b.	built using Bonezegei;
+c.	powered by Bonezegei;
+d.	compatible with Bonezegei; or
+e.	dependent on the Bonezegei runtime.
+You may use the Bonezegei name only as reasonably necessary to identify the Software or describe compatibility.
+You may not use the Bonezegei name, logo, or other branding in a way that falsely suggests:
+a.	ownership of Bonezegei;
+b.	an official partnership with the Developer;
+c.	certification by the Developer;
+d.	endorsement by the Developer;
+e.	sponsorship by the Developer; or
+f.	official Developer support.
+No right to register a company name, domain name, product name, social-media identity, or trademark that is identical or confusingly similar to Bonezegei is granted under this Agreement.
+14. Third-Party Components
+The Software may include or be distributed with third-party libraries, tools, assets, or other components.
+A third-party component may be governed by a separate license included with that component.
+Where a third-party license applies, that license controls Your use and redistribution of the applicable third-party component.
+This Agreement does not reduce, replace, or restrict any rights independently granted under an applicable third-party license.
+You are responsible for reviewing and complying with any third-party notices and licenses included with the Software.
+15. Updates and New Versions
+The Developer may release updates, upgrades, patches, bug fixes, security fixes, new versions, replacement versions, or additional components.
+The Developer is not obligated to:
+a.	release updates or new versions;
+b.	continue developing the Software;
+c.	correct every defect or security vulnerability;
+d.	maintain compatibility with an operating system, platform, Script, Application, or previous version;
+e.	continue distributing or hosting a particular version;
+f.	preserve a particular feature, behavior, or interface; or
+g.	provide maintenance, documentation, training, or technical support.
+An update or new version may be accompanied by a revised license agreement.
+A revised agreement applies to a new version when You accept the revised agreement by downloading, installing, copying, or using that version.
+A revised agreement will not retroactively replace the agreement governing a previously obtained version unless You expressly accept the revised agreement or applicable law permits the change.
+16. No Support Obligation
+The Software is provided without any obligation to provide technical support, maintenance, customization, consulting, training, updates, or repairs.
+The Developer may voluntarily provide support or assistance but is not required to continue doing so.
+Redistributing or bundling the Software does not make You:
+a.	an employee of the Developer;
+b.	an agent of the Developer;
+c.	a partner of the Developer;
+d.	an authorized distributor of the Developer;
+e.	an official support provider; or
+f.	a representative authorized to make commitments on behalf of the Developer.
+Unless separately agreed in writing, You are responsible for supporting Your own Scripts, Applications, products, services, users, and customers.
+17. User Responsibilities
+You are solely responsible for:
+a.	evaluating whether the Software is suitable for Your intended purpose;
+b.	testing the Software before production deployment;
+c.	testing Your Scripts and Applications;
+d.	maintaining appropriate backups;
+e.	protecting passwords, access credentials, systems, and data;
+f.	implementing appropriate security controls;
+g.	complying with laws and regulations applicable to Your activities;
+h.	obtaining required third-party permissions and licenses;
+i.	managing Your own users and customers;
+j.	securing systems on which the Software is installed; and
+k.	ensuring that Your redistribution complies with this Agreement.
+The Developer is not responsible for Your Scripts, Applications, configurations, deployments, systems, data, business activities, or decisions.
+18. High-Risk Uses
+The Software is general-purpose software and is not specifically designed, tested, certified, or warranted for use in systems where failure could reasonably be expected to cause death, personal injury, severe physical damage, or severe environmental damage.
+Examples may include:
+a.	life-support systems;
+b.	emergency medical systems;
+c.	autonomous vehicle control;
+d.	aircraft navigation or control;
+e.	nuclear-facility control;
+f.	weapons systems; and
+g.	critical public-safety infrastructure.
+You assume all responsibility for evaluating, testing, securing, and validating the Software before using it in a high-risk system.
+This Section does not prohibit such use, but the Developer provides no representation that the Software is suitable or certified for it.
+19. Term and Termination
+This Agreement remains effective until terminated.
+Your license terminates automatically if You materially violate this Agreement.
+Where applicable law requires notice or an opportunity to correct a breach, termination will occur after You fail to correct the breach within the legally required or otherwise reasonable period.
+The Developer may terminate the license immediately for a deliberate material violation involving:
+a.	maliciously altered Software;
+b.	distribution of malware with the Software;
+c.	false claims of ownership;
+d.	removal of copyright or proprietary notices;
+e.	unauthorized distribution of modified Software binaries;
+f.	impersonation of the Developer; or
+g.	unlawful use or distribution of the Software.
+Upon termination, You must:
+a.	stop using the Software;
+b.	stop redistributing the Software; and
+c.	delete copies under Your possession or control, except for archival copies that applicable law permits You to retain.
+Termination does not transfer ownership of Your independently created Scripts or Applications to the Developer.
+Sections concerning ownership, restrictions, disclaimers, limitations of liability, governing law, and provisions that by their nature should survive termination will remain effective.
+20. Disclaimer of Warranties
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED “AS IS,” “AS AVAILABLE,” AND WITH ALL FAULTS.
+THE DEVELOPER DISCLAIMS ALL WARRANTIES AND REPRESENTATIONS, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF:
+a.	MERCHANTABILITY;
+b.	FITNESS FOR A PARTICULAR PURPOSE;
+c.	ACCURACY;
+d.	RELIABILITY;
+e.	AVAILABILITY;
+f.	SECURITY;
+g.	NON-INFRINGEMENT;
+h.	QUIET ENJOYMENT;
+i.	COMPATIBILITY; AND
+j.	RESULTS.
+THE DEVELOPER DOES NOT WARRANT THAT:
+a.	THE SOFTWARE WILL BE ERROR-FREE;
+b.	THE SOFTWARE WILL BE SECURE OR UNINTERRUPTED;
+c.	ALL DEFECTS OR SECURITY VULNERABILITIES WILL BE CORRECTED;
+d.	THE SOFTWARE WILL MEET YOUR REQUIREMENTS;
+e.	THE SOFTWARE WILL REMAIN AVAILABLE;
+f.	THE SOFTWARE WILL REMAIN COMPATIBLE WITH ANY PLATFORM OR SYSTEM;
+g.	A SCRIPT OR APPLICATION WILL PRODUCE AN EXPECTED RESULT; OR
+h.	DATA WILL NOT BE LOST, DAMAGED, CORRUPTED, OR DISCLOSED.
+You are responsible for testing the Software and maintaining appropriate backups and security protections.
+Some jurisdictions do not allow the exclusion of certain warranties. In those jurisdictions, these exclusions apply only to the maximum extent permitted by applicable law.
+21. Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE DEVELOPER AND ANY CONTRIBUTORS, LICENSORS, DISTRIBUTORS, OR SERVICE PROVIDERS SHALL NOT BE LIABLE FOR ANY:
+a.	INDIRECT DAMAGES;
+b.	INCIDENTAL DAMAGES;
+c.	SPECIAL DAMAGES;
+d.	EXEMPLARY DAMAGES;
+e.	PUNITIVE DAMAGES;
+f.	CONSEQUENTIAL DAMAGES;
+g.	LOSS OF PROFITS;
+h.	LOSS OF REVENUE;
+i.	LOSS OF SAVINGS;
+j.	LOSS OF BUSINESS OR BUSINESS OPPORTUNITIES;
+k.	BUSINESS INTERRUPTION;
+l.	LOSS, CORRUPTION, DESTRUCTION, OR DISCLOSURE OF DATA;
+m.	SYSTEM FAILURE;
+n.	SECURITY BREACH;
+o.	COST OF SUBSTITUTE SOFTWARE OR SERVICES; OR
+p.	DAMAGES ARISING FROM YOUR SCRIPTS, APPLICATIONS, DEPLOYMENTS, CONFIGURATIONS, OR USE OF THE SOFTWARE.
+These limitations apply regardless of whether a claim is based on contract, warranty, tort, negligence, strict liability, statute, or another legal theory, and even when the Developer has been advised that damages may occur.
+To the maximum extent permitted by applicable law, the Developer’s total aggregate liability arising out of or relating to the Software or this Agreement shall not exceed the amount You paid directly to the Developer for the Software during the twelve months preceding the event giving rise to the claim.
+Because the Software is provided free of charge, that amount will ordinarily be zero.
+Nothing in this Agreement excludes or limits liability that cannot legally be excluded or limited, including any liability arising from fraud, willful misconduct, or another matter for which applicable law prohibits exclusion or limitation.
+22. Governing Law and Jurisdiction
+This Agreement is governed by the laws of the Republic of the Philippines, without regard to conflict-of-law principles.
+Subject to mandatory consumer-protection, jurisdiction, and venue rights under applicable law, a legal action arising from or relating to this Agreement or the Software shall be submitted to a court of competent jurisdiction in the Philippines.
+Nothing in this Section prevents either party from seeking urgent injunctive, protective, or other appropriate relief from a court having proper jurisdiction.
+23. Mandatory Legal Rights
+Nothing in this Agreement limits, excludes, or waives a right or remedy that cannot lawfully be limited, excluded, or waived.
+Where applicable mandatory law conflicts with a provision of this Agreement, the applicable mandatory law controls only to the extent of that conflict.
+24. Severability
+If a court or other competent authority determines that a provision of this Agreement is invalid, unlawful, or unenforceable, that provision will be enforced to the maximum extent legally permitted.
+The remaining provisions will remain in full force and effect.
+25. No Waiver
+A party’s failure or delay in enforcing a provision of this Agreement does not waive that provision or any other right.
+A waiver is effective only when it is made in writing by the party granting the waiver.
+26. Assignment
+You may not assign this Agreement or transfer Your license except as part of a lawful transfer of an organization, business, or Application, and only when the recipient agrees to comply with this Agreement.
+The redistribution rights granted under this Agreement do not constitute an assignment or sublicense.
+Each recipient receives a license to the Software directly from the Developer.
+The Developer may assign this Agreement and the Developer’s rights in the Software to a successor, purchaser, affiliated entity, or future owner of the applicable intellectual-property rights.
+27. Entire Agreement
+This Agreement constitutes the entire agreement between You and the Developer concerning the Software.
+It supersedes prior oral or written statements concerning the same subject matter.
+A separate written agreement signed or expressly accepted by the Developer may supplement or modify this Agreement for the parties to that separate agreement.
+A purchase order, internal organizational policy, or other document issued by You does not modify this Agreement unless the Developer expressly agrees to the modification in writing.
+28. Changes to This Agreement
+The Developer may publish a revised version of this Agreement through an Official Channel.
+A revised Agreement will apply to Software versions distributed with or after the revised Agreement’s effective date.
+A revision will not automatically and retroactively alter the license governing a copy of the Software previously obtained under an earlier Agreement, unless:
+a.	You expressly accept the revised Agreement;
+b.	the earlier Agreement expressly permits the relevant change; or
+c.	applicable law otherwise permits the change.
+29. Electronic Acceptance
+To the extent permitted by applicable law, electronic acceptance of this Agreement has the same effect as acceptance of a written agreement.
+Acceptance may occur when You:
+a.	select an “I Accept,” “Agree,” or similar option;
+b.	continue an installation after being presented with this Agreement;
+c.	download or obtain the Software after being clearly informed that downloading constitutes acceptance;
+d.	deploy the Software after receiving this Agreement; or
+e.	redistribute or use the Software after receiving reasonable notice of these terms.
+The Developer should make this Agreement reasonably available before or during installation, download, deployment, or first use.
+30. Notices and Contact Information
+Questions, notices, permission requests, and legal communications concerning this Agreement may be sent to:
+Developer:	Jofel Batutay
+Capacity:	Independent software developer
+Project:	Bonezegei Scripting Language
+Country:	Philippines
+Email:	jofelbatutay@gmail.com
+Website:	https://bonezegei.com
+Repository:	https://github.com/bonezegei
+The Developer may update these contact details by publishing updated information through an Official Channel.
+31. Copyright and Attribution Notice
+Copyright © 2026 Jofel Batutay. All rights reserved.
+The Bonezegei interpreter, runtime, official documentation, installers, and related original materials are proprietary works of Jofel Batutay.
+The Bonezegei name, logos, and associated branding are identifiers used by the Developer and may be protected under applicable intellectual-property law.
+32. Clarification of Granted Rights
+For clarity, subject to the conditions of this Agreement:
+1.	You may use Bonezegei free of charge for personal purposes.
+2.	You may use Bonezegei free of charge for commercial purposes.
+3.	You may upload the official Bonezegei installer to another website and make it available free of charge.
+4.	You may operate a public or private download mirror for the official installer.
+5.	You may distribute a Portable Copy instead of the official installer.
+6.	You may repackage unmodified Software files into archives, deployment packages, package-manager formats, containers, virtual-machine images, and similar formats.
+7.	You may bundle the Bonezegei runtime with a free Application.
+8.	You may bundle the Bonezegei runtime with a commercial Application.
+9.	You may charge for an Application that includes or depends upon the Bonezegei runtime.
+10.	An organization may deploy Bonezegei internally on an unlimited number of computers and systems.
+11.	Bonezegei may be installed and used on physical servers.
+12.	Bonezegei may be installed and used on virtual servers.
+13.	Bonezegei may be installed and used in containers.
+14.	Bonezegei may be installed and used on public or private cloud platforms.
+15.	Bonezegei may be used as part of a commercial hosted service or software-as-a-service product.
+16.	Users retain ownership of their independently created Scripts and Applications.
+17.	Users are not required to disclose the source code of their Scripts or Applications.
+18.	Users do not owe the Developer a royalty for Scripts, Applications, products, or services created using Bonezegei.
+19.	These permissions do not provide access to or ownership of the Bonezegei interpreter’s source code.
+20.	These permissions do not authorize modification of the Software’s executable or binary code, except to the extent applicable law expressly permits otherwise.
+ACCEPTANCE
+BY DOWNLOADING, INSTALLING, COPYING, DEPLOYING, REDISTRIBUTING, OR USING THE SOFTWARE, YOU CONFIRM THAT YOU HAVE READ, UNDERSTOOD, AND AGREED TO THIS END-USER LICENSE AGREEMENT.
