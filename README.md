@@ -59,7 +59,7 @@ The Bonezegei Scripting Language (BSL) is a newly developed, dynamically typed p
       ```
     * Test inline scripting
       ```
-      bonezegei -inline "print(\"Hello World\");"
+      bonezegei --inline "print(\"Hello World\");"
       ```      
     * Run Script
       ```
