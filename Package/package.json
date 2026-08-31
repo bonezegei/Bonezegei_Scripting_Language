@@ -8,5 +8,6 @@
  { "name":"serial",    "arch":"all", "os": "all", "url":"bonezegei/BSL_Serial"},
  { "name":"sqlite",    "arch":"all", "os": "all", "url":"bonezegei/BSL_SQLite"},
  { "name":"base64",    "arch":"all", "os": "all", "url":"bonezegei/BSL_Base64"},
+ { "name":"async",     "arch":"all", "os": "all", "url":"bonezegei/BSL_Async"},
  { "name":"gpio",  "arch":"arm-rpi", "os": "all", "url":"NA"}
 }
