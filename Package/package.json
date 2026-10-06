@@ -10,5 +10,6 @@
  { "name":"base64",    "arch":"all", "os": "all", "url":"bonezegei/BSL_Base64"},
  { "name":"async",     "arch":"all", "os": "all", "url":"bonezegei/BSL_Async"},
  { "name":"hash",      "arch":"all", "os": "all", "url":"bonezegei/BSL_Hash"},
+ { "name":"env",       "arch":"all", "os": "all", "url":"bonezegei/BSL_Env"},
  { "name":"gpio",  "arch":"arm-rpi", "os": "all", "url":"NA"}
 }
