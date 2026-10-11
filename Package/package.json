@@ -12,5 +12,6 @@
  { "name":"hash",      "arch":"all", "os": "all", "url":"bonezegei/BSL_Hash"},
  { "name":"env",       "arch":"all", "os": "all", "url":"bonezegei/BSL_Env"},
  { "name":"proxy",     "arch":"all", "os": "all", "url":"bonezegei/BSL_Proxy"},
+ { "name":"regex",     "arch":"all", "os": "all", "url":"bonezegei/BSL_RegEx"},
  { "name":"gpio",  "arch":"arm-rpi", "os": "all", "url":"NA"}
 }
