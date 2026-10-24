@@ -16,5 +16,6 @@
  { "name":"rng",       "arch":"all", "os": "all", "url":"bonezegei/BSL_RNG"},
  { "name":"time",      "arch":"all", "os": "all", "url":"bonezegei/BSL_Time"},
  { "name":"webview",   "arch":"all", "os": "all", "url":"bonezegei/BSL_Webview"},
+ { "name":"bcrypt",    "arch":"all", "os": "all", "url":"bonezegei/BSL_Bcrypt"},
  { "name":"gpio",  "arch":"arm-rpi", "os": "all", "url":"NA"}
 }
