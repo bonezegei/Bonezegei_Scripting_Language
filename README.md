@@ -88,9 +88,23 @@ The Bonezegei Scripting Language (BSL) is a newly developed, dynamically typed p
       bzg install <package_name>
       ``` 
 ### Available Libraries
-| No  | Name                          | Description                        | Supported OS / Arch | Latest Version                                                                                                                                            |
-|-----|-------------------------------|------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  1  | BSL_Pipe      | Pipe Library    |Win/linux x86        | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Pipe)](https://github.com/bonezegei/BSL_Pipe)                                                 |
-|  2  | BSL_Thread    | Thread Library  |Win/linux x86        | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Thread)](https://github.com/bonezegei/BSL_Thread)                                             |
-|  3  | BSL_Socket    | Network Socket  |Win/linux x86        | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Socket)](https://github.com/bonezegei/BSL_Socket)    
-
+| No. | Name | Description | Supported OS / Arch | Latest Version |
+|-----|------|-------------|---------------------|----------------|
+| 1 | BSL_TestLib | Test Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_TestLib)](https://github.com/bonezegei/BSL_TestLib) |
+| 2 | BSL_Pipe | Pipe Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Pipe)](https://github.com/bonezegei/BSL_Pipe) |
+| 3 | BSL_Thread | Thread Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Thread)](https://github.com/bonezegei/BSL_Thread) |
+| 4 | BSL_Socket | Network Socket | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Socket)](https://github.com/bonezegei/BSL_Socket) |
+| 5 | BSL_HTTP | HTTP Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_HTTP)](https://github.com/bonezegei/BSL_HTTP) |
+| 6 | BSL_HTTPS | HTTPS Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_HTTPS)](https://github.com/bonezegei/BSL_HTTPS) |
+| 7 | BSL_Serial | Serial Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Serial)](https://github.com/bonezegei/BSL_Serial) |
+| 8 | BSL_SQLite | SQLite Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_SQLite)](https://github.com/bonezegei/BSL_SQLite) |
+| 9 | BSL_Base64 | Base64 Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Base64)](https://github.com/bonezegei/BSL_Base64) |
+| 10 | BSL_Async | Async Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Async)](https://github.com/bonezegei/BSL_Async) |
+| 11 | BSL_Hash | Hash Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Hash)](https://github.com/bonezegei/BSL_Hash) |
+| 12 | BSL_Env | Environment Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Env)](https://github.com/bonezegei/BSL_Env) |
+| 13 | BSL_Proxy | Proxy Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Proxy)](https://github.com/bonezegei/BSL_Proxy) |
+| 14 | BSL_RegEx | Regular Expression Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_RegEx)](https://github.com/bonezegei/BSL_RegEx) |
+| 15 | BSL_RNG | Random Number Generator | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_RNG)](https://github.com/bonezegei/BSL_RNG) |
+| 16 | BSL_Time | Time Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Time)](https://github.com/bonezegei/BSL_Time) |
+| 17 | BSL_Webview | Webview Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Webview)](https://github.com/bonezegei/BSL_Webview) |
+| 18 | BSL_Bcrypt | Bcrypt Library | All | [![P](https://img.shields.io/github/v/release/bonezegei/BSL_Bcrypt)](https://github.com/bonezegei/BSL_Bcrypt) |
